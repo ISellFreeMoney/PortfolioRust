@@ -1,0 +1,1 @@
+fn(actix_web::web::Json<NewTask>, Data<{type error}>) -> impl Responder {post_task}: Handler<_>
